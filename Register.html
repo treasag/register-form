@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration form</title>
+</head>
+<body>
+<form action = "form2"  method = "Post">
+<div class = container>
+<h1>Registration Form</h1>
+
+<label>First Name:</label>
+<input type = "text" name="firstname" id = "firstname" placeholder="firstname" size=15>
+<br/>
+<br/>
+<br/>
+ 
+ <label>Middle Name:</label>
+ <input type = "text" name = "middlename" id = "middlename" placeholder = " middle name" size = 15>
+ <br/>
+ <br/>
+ <br/>
+ 
+ <label>Last Name</label>
+ <input type = "text" name = "lastname" id = "lastname" placeholder=" last name" size = 15>
+<br/>
+<br/>
+
+<div>
+<br />
+
+<label> Course</label>
+<select>
+<option value = "Course">Course</option>
+<option value = "B.Tech">B.Tech</option>
+<option value = "BCA" >BCA</option>
+<option value = "BBA">BBA</option>
+<option value = "MBA">MBA</option>
+<option value = "MCA">MCA</option>
+<option value = "M.Tech">M.Tech</option>
+</select>
+</div>
+
+<br/>
+
+<div >
+<label>Gender</label>
+<input type = "radio" name ="Gender"  id = "male" value= "Male" checked>Male
+<input type ="radio" name = "Gender" id = "female" value = "Female">Female
+<input type = "radio" name = "Gender" id = "others" value ="other">other
+</div>
+<br/>
+
+
+<label>Phone</label>
+<input type = text name = "country_code"  id = "code" placeholder = "country code" value = "+91" size = "2">
+<input type = text name = "number" id = "number" placeholder = "enter number" size = "10">
+
+<br/>
+<br/>
+<label>Current Address</label>
+<textarea cols ="80" rows ="5" placeholder = "Current address"  id = "address" name = "address"></textarea>
+<br/>
+
+<label>Email</label>
+<input type = "email" name = "email"  id = "email" placeholder="enter email id">
+<br/>
+<br/>
+
+<label>Password</label>
+<input type = "password" placeholder = "Enter password" name = "password" id = "password">
+<br/>
+<br/>
+
+<button type = "submit" class = "regbtn">Register</button>
+
+</div>
+
+</form>
+</body>
+</html>
